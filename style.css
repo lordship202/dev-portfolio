@@ -306,18 +306,18 @@ footer {
 .fa-github {
   font-size: 22px;
 }
-@media(max-width:786px){
-  .hero{
-    flex-direction: column-reverse;
+@media(max-width:600px){
+  .container {
+    flex-direction: column;
+    padding: 15px;
     text-align: center;
   }
-  .hero-text p{
-    margin: 0 auto 20px;
+  .profile-img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
   }
-  .btns{
-    justify-content: center;
-  }
-  .hero-text h1{
-    font-size: 34px;
+  h1 {
+    font-size: 26px;
   }
 }
