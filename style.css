@@ -1,0 +1,323 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif
+}
+
+body {
+  background: #07070A;
+  color: #fff
+}
+
+a {
+  text-decoration: none
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0
+}
+
+.logo {
+  font-weight: 900;
+  font-size: 22px
+}
+
+.logo span {
+  color: #00FF88
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  list-style: none
+}
+
+.nav-links a {
+  color: #888;
+  font-size: 14px
+}
+
+.nav-links a:hover {
+  color: #00FF88
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 0;
+  flex-wrap: wrap
+}
+
+.hero-text h4 {
+  color: #00FF88;
+  font-size: 13px;
+  letter-spacing: 2px;
+  margin-bottom: 10px
+}
+
+.hero-text h1 {
+  font-size: 52px;
+  line-height: 1.1;
+  margin-bottom: 10px
+}
+
+.hero-text h3 {
+  font-size: 22px;
+  color: #ccc;
+  margin-bottom: 15px
+}
+
+.hero-text p {
+  color: #777;
+  width: 400px;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 20px
+}
+
+.btns {
+  display: flex;
+  gap: 12px
+}
+
+.btn1 {
+  background: #00FF88;
+  color: #000;
+  padding: 12px 22px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 14px
+}
+
+.btn2 {
+  border: 1px solid #00FF88;
+  color: #00FF88;
+  padding: 12px 22px;
+  border-radius: 4px;
+  font-size: 14px
+}
+
+.hero-img img {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  border: 3px solid #00FF88;
+  object-fit: cover
+}
+
+/* ABOUT */
+.section {
+  padding: 60px 0;
+  border-top: 1px solid #151515
+}
+
+.small {
+  color: #00FF88;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 8px
+}
+
+.title {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 40px
+}
+
+.about-grid {
+  display: flex;
+  gap: 30px
+}
+
+.about-box1 {
+  background: #111117;
+  padding: 30px;
+  border-radius: 8px;
+  width: 35%;
+  border: 1px solid #1A1A1A
+}
+
+.about-box1 h3 {
+  color: #00FF88;
+  margin-bottom: 15px
+}
+
+.about-box1 p {
+  color: #888;
+  font-size: 13px;
+  line-height: 1.6;
+  margin-bottom: 15px
+}
+
+.boxes {
+  width: 65%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px
+}
+
+.s-box {
+  background: #111117;
+  border: 1px solid #1A1A1A;
+  padding: 20px;
+  border-radius: 8px;
+  width: 48%;
+}
+
+.s-box h4 {
+  color: #00FF88
+}
+
+.s-box h5 {
+  margin: 8px 0
+}
+
+.s-box p {
+  color: #666;
+  font-size: 12px
+}
+
+* SKILLS */ .skills {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap
+}
+
+.skill {
+  background: #111117;
+  border: 1px solid #1A1A1A;
+  padding: 25px;
+  border-radius: 8px;
+  width: 23%;
+  text-align: center;
+}
+
+.skill div {
+  width: 80px;
+  height: 50px;
+  border: 1px solid #00FF88;
+  margin: 0 auto 15px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  color: #00FF88
+}
+
+.skill h4 {
+  margin-bottom: 8px
+}
+
+.skill p {
+  color: #666;
+  font-size: 12px
+}
+
+/* PROJECTS */
+.project {
+  background: #111117;
+  border: 1px solid #1A1A1A;
+  border-radius: 8px;
+  padding: 0;
+  overflow: hidden
+}
+
+.project-top {
+  background: #000;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 70px;
+  font-weight: 900;
+  letter-spacing: 5px;
+  color: #E50914
+}
+
+.project-bottom {
+  padding: 20px
+}
+
+.project-bottom p {
+  color: #666;
+  font-size: 12px;
+  margin: 10px 0
+}
+
+.project-bottom a {
+  color: #00FF88;
+  font-size: 13px
+}
+
+/* CONTACT */
+.contact-grid {
+  display: flex;
+  gap: 40px
+}
+
+.contact-left {
+  width: 50%
+}
+
+.contact-left h2 {
+  font-size: 28px;
+  margin-bottom: 10px
+}
+
+.contact-left p {
+  color: #666;
+  font-size: 13px;
+  margin-bottom: 20px
+}
+
+.contact-right {
+  width: 50%
+}
+
+.contact-right p {
+  color: #888;
+  margin-bottom: 10px;
+  font-size: 14px
+}
+
+footer {
+  text-align: center;
+  padding: 30px 0;
+  color: #444;
+  border-top: 1px solid #151515;
+  margin-top: 40px;
+  font-size: 13px
+}
+
+.fa-github {
+  font-size: 22px;
+}
+@media(max-width:786px){
+  .hero{
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .hero-text p{
+    margin: 0 auto 20px;
+  }
+  .btns{
+    justify-content: center;
+  }
+  .hero-text h1{
+    font-size: 34px;
+  }
+}

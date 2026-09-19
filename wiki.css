@@ -1,0 +1,82 @@
+  body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: white;
+    padding-top: 50px;
+    margin: 0;
+  }
+  h1 {
+    font-family: 'Linux Libertine','Georgia',serif;
+    font-size: 36px;
+    font-weight: normal;
+    margin: 0;
+    letter-spacing: 3px;
+  }
+  .subtitle {
+    font-size: 14px;
+    color: #54595d;
+    margin:  0 30px 0;
+  }
+    .wrapper {
+    position: relative;
+    width: 540px;
+    height: 325px;
+    margin: 0 auto;
+  }
+  .globe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 170px;
+  }
+  .lang {
+    position: absolute;
+    width: 160px;
+    line-height: 1.4;
+  }
+    .lang a {
+    color: #3366cc;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  .lang a:hover { text-decoration: underline; }
+  .lang small { color: #54595d; font-size: 12px; }
+
+  /* Positions - like a circle around globe */
+  .l1 { top: 0px; left: 0px; text-align: right; }
+  .l2 { top: 55px; left: 0px; text-align: right; }
+  .l3 { top: 110px; left: 0px; text-align: right; }
+  .l4 { top: 165px; left: 0px; text-align: right; }
+  .l5 { top: 220px; left: 0px; text-align: right; }
+  
+  .r1 { top: 0px; right: 0px; text-align: left; }
+  .r2 { top: 55px; right: 0px; text-align: left; }
+  .r3 { top: 110px; right: 0px; text-align: left; }
+  .r4 { top: 165px; right: 0px; text-align: left; }
+    .r5 { top: 220px; right: 0px; text-align: left; }
+
+  .search {
+    margin-bottom: 300px;
+  }
+  .search input {
+    width: 320px;
+    padding: 9px;
+    border: 1px solid #a2a9b1;
+    font-size: 14px;
+  }
+  .search button {
+    padding: 9px 14px;
+    background: #3366cc;
+    border: 1px solid #3366cc;
+    color: white;
+    cursor: pointer;
+    margin-left: -4px;
+    font-weight: bold;
+  }
+  .footer {
+    margin-top: 30px;
+    font-size: 13px;
+    color: #3366cc;
+  }
